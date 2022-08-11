@@ -23,11 +23,7 @@ class SunriseAndZawwal extends Component {
   }
 
   getZawwal() {
-    var zuhrTime = this.getTodaysDate()['zuhr_begins'];
-    var zuhrTimeToMoment = moment(zuhrTime, 'h:mm')
-      .subtract(10, 'minutes')
-      .format('h:mm');
-    return zuhrTimeToMoment;
+    return this.getTodaysDate()['asr_1_begins'];
   }
 
   render() {
