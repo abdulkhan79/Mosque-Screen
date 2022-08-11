@@ -24,8 +24,7 @@ class SunriseAndZawwal extends Component {
 
   getZawwal() {
     return this.getTodaysDate()['asr_1_begins'];
-    .format('h:mm');
-  }
+   }
 
   render() {
     return (
