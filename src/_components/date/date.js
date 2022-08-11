@@ -22,8 +22,7 @@ class Date extends Component {
   }
 
  getHijriDate() {
-   var HijriDateVar = moment(hijriDate, -1)
-    return HijriDateVar().format('iD iMMMM iYYYY');
+   return moment().format('iD iMMMM iYYYY');
   }
 
   render() {
